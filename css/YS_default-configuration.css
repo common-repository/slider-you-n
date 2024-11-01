@@ -1,0 +1,116 @@
+		/* 
+		Document   : YS_default-configuration
+		Created on : 5-lug-2013, 12.32.26
+		Author     : UTENTE
+		Description:
+		Purpose of the stylesheet follows.
+		*/
+		
+		/*
+		#slider-content-misure {
+		width:700px;
+		height:auto!important;
+		margin:0 auto;
+		background:#F00;
+		}
+		*/
+		
+		.clear{
+		clear: both;
+		}
+		.wrapper-general-YSlider {
+		margin-bottom: 15px;
+		}
+		#slider-content, #slider-elements {
+		width:100%;
+		height:auto!important;
+		margin:0 auto;
+		position:relative;
+		}
+		
+		#slider-content img {
+		width:100%;
+		height:auto!important;
+		max-width: none;
+		}
+		
+		#paginatore {
+		width:auto;
+		height:20px;
+		margin:0 auto!important;
+		}
+		
+		
+		#paginatore a {
+		width: 10px;
+		height: 10px;
+		margin-top:9px;
+		-webkit-border-radius: 25px;
+		-moz-border-radius: 25px;
+		border-radius: 25px;
+		display:block;
+		float:left;
+		margin-right:8px;
+		/*background:#000;*/
+		text-indent:5000px;
+		outline:none!important;
+		} 
+		
+		.activeSlide {
+		width:10px!important;
+		height:10px!important;	
+		background: url(../images/ghost_color.png) !important;	
+                display:inline-block;
+		}
+		
+		.wrapper-general-YSlider img {
+		width:100%!important;
+		height:auto!important;
+		}
+		
+		#slider-content-no-responsive { 
+		position:relative;
+		}
+		
+		.wrapper-general-YSlider #prev, .wrapper-general-YSlider #next, #slider-content-no-responsive #prev, #slider-content-no-responsive #next   {
+		width:50px;
+		height:50px;
+		position:absolute;
+		z-index:40;
+		opacity:0.60;
+		text-indent:-5000px;
+                cursor: pointer;
+		}
+		
+		#next {
+		right:0px;
+		background: url(../images/nav_front_right.png) no-repeat center;
+		}
+		
+		#prev {
+		left:0px;			
+		background: url(../images/nav_front_left.png) no-repeat center;
+		}
+		
+		.black_n, .black_p   {
+		width:50px;
+		height:50px;
+		right:0px;
+		background: url(../images/nav_front_right_black.png) no-repeat center!important;
+		}
+		
+		.black_p {
+		left:0px;
+		background: url(../images/nav_front_left_black.png) no-repeat center!important;
+		}
+                .wrapper-general-YSlider #prev:hover, .wrapper-general-YSlider #next:hover, #slider-content-no-responsive #prev:hover, #slider-content-no-responsive #next:hover {
+                    		opacity:0.90;
+
+                }
+		#next:hover {
+		opacity:0.90;
+		}
+		
+		#prev:hover {
+		opacity:0.90;
+		}
